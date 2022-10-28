@@ -164,13 +164,16 @@ const App: React.FC = (props) => {
     });
   };
   const getTransactionHistory = (oXaddress: string) => {
+    window.open(`https://etherscan.io/address/${oXaddress}`, "_blank");
     // for transactions to large blocksize, simply redirect to explorer.
-    web3.eth
+    // Large block size issues.
+    /*web3.eth
       .getPastLogs({ fromBlock: "0x0", toBlock: "latest", address: oXaddress })
       .then((res) => {
         res.forEach((rec) => {});
       })
       .catch((err) => {});
+    */
   };
 
   return (

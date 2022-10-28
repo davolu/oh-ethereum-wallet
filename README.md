@@ -1,35 +1,35 @@
-# Simple Ethereum Wallet 
+# Simple Ethereum Wallet
 
-This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js 
+This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
 
 # Features
 
- - Import Wallets via Private Key
- - Add multiple ECR20 Tokens 
- - Switch between networks. Supported Networks: 
-   -  Ethereum 
-   -  Polygon
-   -  Optimism
-   -  Palm
-   -  Avalanche C-Chain
-   -  Near Protocol
-   -  Starknet
-   -  Aurora
--  Transfer Ecr20 tokens
--  View Wallet & Tokens Balance
+- Import Wallets via Private Key
+- Add multiple ECR20 Tokens
+- Switch between networks. Supported Networks:
+  - Ethereum
+  - Polygon
+  - Optimism
+  - Palm
+  - Avalanche C-Chain
+  - Near Protocol
+  - Starknet
+  - Aurora
+- Transfer Ecr20 tokens
+- View Wallet & Tokens Balance
 
+## Configutations
 
-## Configutations 
+You will need to get a project key from infuria.io (or preferred provider) and edit in your env file as:
+`REACT_APP_INFURIA_ID=<YOUR INFURIA PROJECT ID>`
 
- You will need to get a project key from infuria.io (or preferred provider) and edit in your env file as:
- `REACT_APP_INFURIA_ID=<YOUR INFURIA PROJECT ID>`
- 
 ## Running the project
 
 In the project directory:
- ### `yarn install`
 
- ### `yarn start`
+### `yarn install`
+
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -49,4 +49,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
- 

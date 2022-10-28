@@ -6,7 +6,7 @@ export const PrivateKeyInputComponent = (props: any) => {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-color-green">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-color-white">
             Ethereum Wallet
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-color-gray-tone">
@@ -30,7 +30,7 @@ export const PrivateKeyInputComponent = (props: any) => {
             onClick={() => {
               connectwalletHandler(rpc);
             }}
-            className="text-white bg-color-lime border-1 border-lime-300	 py-2 px-8 focus:outline-none hover:bg-white-500 rounded-3xl text-lg"
+            className="text-white bg-color-lime border-1 border-lime-300	 py-2 px-8 focus:outline-none hover:bg-white-500 rounded-3xl text-lg button-gradient"
           >
             Connect
           </button>

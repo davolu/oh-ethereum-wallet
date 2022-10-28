@@ -31,13 +31,13 @@ export const BalanceSectionComponent = (props: any): JSX.Element | null => {
         <div className="flex">
           <button
             onClick={() => setShowTokenSendModal(true)}
-            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg"
+            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient "
           >
             Transfer
           </button>
           <button
             onClick={() => getTransactionHistory(defaultAccount)}
-            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg"
+            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient"
           >
             History
           </button>

@@ -49,7 +49,7 @@ export const CustomTokenComponent = (props: any): JSX.Element | null => {
             onClick={() => {
               setShowAddTokenModal(true);
             }}
-            className="flex ml-auto text-white bg-color-lime border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded-3xl"
+            className="flex ml-auto text-white bg-color-lime border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded-3xl button-gradient"
           >
             Add ECR20 Token
           </button>
