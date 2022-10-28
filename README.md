@@ -25,7 +25,7 @@ This is a simple implementation on a web based Ethereum wallet built with React,
 
 
 ## ECR20 TOKEN - PlayoCoin (PLAYCN) 
-The PLAYCN was created using Solidity ... openzeppelin... It's deployed to the Testnet on the Polygon network. 
+The PLAYCN was created using Solidity ... openzeppelin... It's deployed to the Testnet on the Polygon network with 1000 total supply for demo sakes.
 
 `
 // SPDX-License-Identifier: MIT <br/>
