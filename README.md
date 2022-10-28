@@ -4,7 +4,8 @@ This is a simple implementation on a web based Ethereum wallet built with React,
 <br/>
 <img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshotdemo.png" />
 <br/>
-<a  src="https://oh-ethereum-wallet.herokuapp.com"  target="_blank">Demo</a>
+
+<a  href="https://oh-ethereum-wallet.herokuapp.com"  target="_blank">Demo</a>
 
 # Features
 
