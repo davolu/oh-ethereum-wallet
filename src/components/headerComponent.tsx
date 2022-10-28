@@ -18,7 +18,7 @@ export const HeaderComponent = (props: any) => {
             onClick={() => setDefaultAccount("")}
             className="flex mx-auto mt-6x text-white border-2 border-purplx-900 border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient"
           >
-            Import New Wallet
+            Import New Wallet 
           </button>
           <select
             onChange={async (e) => {
