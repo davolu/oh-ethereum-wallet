@@ -57,20 +57,20 @@ export const SendTokenModal = (props: any): JSX.Element | null => {
                 </div>
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                   <h3
-                    className="text-lg font-medium leading-6 text-gray-900"
+                    className="text-lg font-medium leading-6 text-gray-900 DMSansBold"
                     id="modal-title"
                   >
                     Send Token
                   </h3>
 
                   <div className="mt-2">
-                    <label className="leading-7 text-sm text-color-gray-tone">
+                    <label className="leading-7 text-sm text-color-gray-tone DMSansBold">
                       Select Token
                     </label>
                     <select
                       id="transferToken"
                       name="transferToken"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded-3xl border border-gray-300 focus:border-indigo-500 focus:bg-opacity-100 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded-3xl border border-gray-300 focus:border-indigo-500 focus:bg-opacity-100 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out DMSansBold"
                       onChange={(e) => setTransferTokenAddress(e.target.value)}
                     >
                       <option value={ethereumMainnetContractAddress}>
@@ -89,7 +89,7 @@ export const SendTokenModal = (props: any): JSX.Element | null => {
                   </div>
 
                   <div className="mt-2">
-                    <label className="leading-7 text-sm text-color-gray-tone">
+                    <label className="leading-7 text-sm text-color-gray-tone DMSansBold">
                       To Address: (enter ethereum address of the reciever)
                     </label>
                     <input
@@ -101,7 +101,7 @@ export const SendTokenModal = (props: any): JSX.Element | null => {
                   </div>
 
                   <div className="mt-2">
-                    <label className="leading-7 text-sm text-color-gray-tone">
+                    <label className="leading-7 text-sm text-color-gray-tone DMSansBold">
                       Amount:
                     </label>
                     <input
@@ -120,7 +120,7 @@ export const SendTokenModal = (props: any): JSX.Element | null => {
                 onClick={() => {
                   setShowTokenSendModal(false);
                 }}
-                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient"
+                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient DMSansBold"
               >
                 Cancel
               </button>
@@ -144,7 +144,7 @@ export const SendTokenModal = (props: any): JSX.Element | null => {
                     );
                     setShowTokenSendModal(true);
                   }}
-                  className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient"
+                  className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient DMSansBold"
                 >
                   Send
                 </button>

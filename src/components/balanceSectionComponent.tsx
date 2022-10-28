@@ -18,10 +18,10 @@ export const BalanceSectionComponent = (props: any): JSX.Element | null => {
               <img src="ethereum-icon.png" />
             </div>
             <div className="flex-grow">
-              <h2 className="text-gray-900 text-5xl title-font font-medium mb-3 text-color-green">
+              <h2 className="text-gray-900 text-5xl title-font font-medium mb-3 text-color-green ArchivoExtraBold">
                 {userBalance}
               </h2>
-              <p className="leading text-base text-color-white">
+              <p className="leading text-base text-color-white ArchivoExtraBold">
                 {etherAddressShortener(defaultAccount)}
               </p>
             </div>
@@ -31,13 +31,13 @@ export const BalanceSectionComponent = (props: any): JSX.Element | null => {
         <div className="flex">
           <button
             onClick={() => setShowTokenSendModal(true)}
-            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient "
+            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient DMSansBold"
           >
             Transfer
           </button>
           <button
             onClick={() => getTransactionHistory(defaultAccount)}
-            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient"
+            className="flex mx-auto mt-6 text-white bg-color-lime border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded-3xl text-lg button-gradient DMSansBold"
           >
             History
           </button>

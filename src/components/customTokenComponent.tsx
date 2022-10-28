@@ -30,13 +30,13 @@ export const CustomTokenComponent = (props: any): JSX.Element | null => {
                 .filter((token: any) => token.ownerAddress === defaultAccount)
                 .map((token: any, index: any) => (
                   <tr key={index}>
-                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white">
+                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white DMSansBold">
                       {token.symbol}
                     </td>
-                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white">
+                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white DMSansBold">
                       {token.balance}
                     </td>
-                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white">
+                    <td className="border-t-2 border-green-100 px-4 py-3 text-color-white DMSansBold">
                       <button onClick={removeCustomToken}>remove</button>
                     </td>
                   </tr>
@@ -49,7 +49,7 @@ export const CustomTokenComponent = (props: any): JSX.Element | null => {
             onClick={() => {
               setShowAddTokenModal(true);
             }}
-            className="flex ml-auto text-white bg-color-lime border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded-3xl button-gradient"
+            className="flex ml-auto text-white bg-color-lime border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded-3xl button-gradient DMSansBold"
           >
             Add ECR20 Token
           </button>

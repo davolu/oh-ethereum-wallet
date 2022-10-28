@@ -49,14 +49,14 @@ export const AddTokenModal = (props: any): JSX.Element | null => {
                 </div>
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                   <h3
-                    className="text-lg font-medium leading-6 text-gray-900"
+                    className="text-lg font-medium leading-6 text-gray-900 DMSansBold"
                     id="modal-title"
                   >
                     Add Custom Token
                   </h3>
 
                   <div className="mt-2">
-                    <label className="leading-7 text-sm text-color-gray-tone">
+                    <label className="leading-7 text-sm text-color-gray-tone DMSansBold">
                       Token Symbol
                     </label>
                     <input
@@ -68,7 +68,7 @@ export const AddTokenModal = (props: any): JSX.Element | null => {
                   </div>
 
                   <div className="mt-2">
-                    <label className="leading-7 text-sm text-color-gray-tone">
+                    <label className="leading-7 text-sm text-color-gray-tone DMSansBold">
                       Token Contract Address
                     </label>
                     <input
@@ -88,7 +88,7 @@ export const AddTokenModal = (props: any): JSX.Element | null => {
                 onClick={() => {
                   setShowAddTokenModal(false);
                 }}
-                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient"
+                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient DMSansBold"
               >
                 Cancel
               </button>
@@ -102,7 +102,7 @@ export const AddTokenModal = (props: any): JSX.Element | null => {
                   );
                   setShowAddTokenModal(false);
                 }}
-                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient"
+                className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm button-gradient DMSansBold"
               >
                 Add Token
               </button>
