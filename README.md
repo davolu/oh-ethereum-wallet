@@ -10,7 +10,7 @@ This is a simple implementation on a web based Ethereum wallet built with React,
 # Features
 
 - Import Wallets via Private Key
-- Add multiple ECR20 Tokens
+- Add any ECR20 Token
 - Switch between networks. Supported Networks:
   - Ethereum
   - Polygon
@@ -41,6 +41,13 @@ contract PolyCoin is ERC20 { <br/>
 Token Contract Address: 0x9f20AE147f2ad0BF8CE950b13264ccACaA66108A
 <br/>
 <a href="https://mumbai.polygonscan.com/address/0x9f20AE147f2ad0BF8CE950b13264ccACaA66108A" target="_blank">View on PolygonScan</a>
+
+
+## Add PLAYCN TOKEN
+1. <img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshot-add-custom-playcn-token.png" />
+<br/>
+2. <img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshot-playcn-added.png" />
+
 
 ## Configutations
 
