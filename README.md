@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Simple Ethereum Wallet 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js 
+
+# Features
+
+ - Import Wallets via Private Key
+ - Add multiple ECR20 Tokens 
+ - Switch between networks. Supported Networks: 
+   -  Ethereum 
+   -  Polygon
+   -  Optimism
+   -  Palm
+   -  Avalanche C-Chain
+   -  Near Protocol
+   -  Starknet
+   -  Aurora
+-  Transfer Ecr20 tokens
+-  View Tokens Balance
+
+
 
 ## Available Scripts
 
