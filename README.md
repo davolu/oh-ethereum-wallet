@@ -1,6 +1,7 @@
 # Simple Ethereum Wallet
 
 This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
+<br/>
 <img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshotdemo.png" />
 <br/>
 <a href="https://gateway.pinata.cloud/ipfs/QmUc4XfxnwvgHZdqwevKrnmrHkeWG8WzrmcQdv8Xigbq7U" target="_blank">Demo</a>
