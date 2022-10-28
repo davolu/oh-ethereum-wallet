@@ -1,18 +1,26 @@
-body{
-    background: #050b0e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0a0e10, #050b0e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0a0e10, #050b0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  background: #050b0e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0a0e10,
+    #050b0e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0a0e10,
+    #050b0e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.text-color-green{
-    color:#1D976C;
+.text-color-green {
+  color: #1d976c;
 }
-.text-color-gray-tone{
-    color:#7a7a7a;
+.text-color-gray-tone {
+  color: #7a7a7a;
 }
-.bg-color-lime{
-    background-color:#1D976C;
+.bg-color-lime {
+  background-color: #1d976c;
 }
-.text-color-white{
-    color:#fff;
+.text-color-white {
+  color: #1d976c;
 }
