@@ -1,6 +1,6 @@
 # Simple Ethereum Wallet
 
-This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
+This is a simple implementation of a web based Ethereum wallet built with React, Typescript & Web3.js
 <br/>
 <img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshotdemo.png" />
 <br/>
