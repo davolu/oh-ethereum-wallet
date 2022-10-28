@@ -2,7 +2,7 @@
 
 This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
 <br/>
-<img src="https://github.com/davolu/oh-ethereum-wallet/blob/master/public/screenshotdemo.png" />
+<img src="https://oh-ethereum-wallet.herokuapp.com" target="_blank" />
 <br/>
 <a href="https://gateway.pinata.cloud/ipfs/QmUc4XfxnwvgHZdqwevKrnmrHkeWG8WzrmcQdv8Xigbq7U" target="_blank">Demo</a>
 
@@ -22,6 +22,10 @@ This is a simple implementation on a web based Ethereum wallet built with React,
 - Transfer Ecr20 tokens
 - View Wallet & Tokens Balance
 
+
+## ECR20 TOKEN - PlayoCoin (PLAYCN) 
+The PLAYCN is deployed to the Testnet on the Polygon network. 
+Token Contract Address: 0x9f20AE147f2ad0BF8CE950b13264ccACaA66108A
 ## Configutations
 
 You will need to get a project key from infuria.io (or preferred provider) and edit in your env file as:
