@@ -27,16 +27,18 @@ This is a simple implementation on a web based Ethereum wallet built with React,
 ## ECR20 TOKEN - PlayoCoin (PLAYCN) 
 The PLAYCN was created using Solidity ... openzeppelin... It's deployed to the Testnet on the Polygon network with 1000 total supply for demo sakes.
 
+<pre>
 `
-// SPDX-License-Identifier: MIT <br/>
-pragma solidity ^0.8.2; <br/>
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol"; <br/>
-contract PolyCoin is ERC20 { <br/>
-    constructor() ERC20("PlayoCoin", "PLAYCN") { <br/>
-        _mint(msg.sender, 1000 * 10 ** decimals()); <br/>
-    } <br/>
-}<br/>
+// SPDX-License-Identifier: MIT 
+pragma solidity ^0.8.2; 
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol"; 
+contract PolyCoin is ERC20 { 
+    constructor() ERC20("PlayoCoin", "PLAYCN") { 
+        _mint(msg.sender, 1000 * 10 ** decimals()); 
+    }
+}
 `
+</pre>
 <br/>
 Token Contract Address: 0x9f20AE147f2ad0BF8CE950b13264ccACaA66108A
 <br/>
