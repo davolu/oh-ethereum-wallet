@@ -1,8 +1,8 @@
 # Simple Ethereum Wallet
 
 This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
-
-<img src="https://gateway.pinata.cloud/ipfs/QmUc4XfxnwvgHZdqwevKrnmrHkeWG8WzrmcQdv8Xigbq7U"/>
+<img src="https://gateway.pinata.cloud/ipfs/QmTNdZXVqfwLTe32tTivRbE29zUhuXhy9sBckV6jQ2jNYZ" />
+<a href="https://gateway.pinata.cloud/ipfs/QmUc4XfxnwvgHZdqwevKrnmrHkeWG8WzrmcQdv8Xigbq7U" target="_blank">Demo</a>
 
 # Features
 
