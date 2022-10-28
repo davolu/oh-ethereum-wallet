@@ -2,6 +2,8 @@
 
 This is a simple implementation on a web based Ethereum wallet built with React, Typescript & Web3.js
 
+<img src="https://gateway.pinata.cloud/ipfs/QmUc4XfxnwvgHZdqwevKrnmrHkeWG8WzrmcQdv8Xigbq7U"/>
+
 # Features
 
 - Import Wallets via Private Key
