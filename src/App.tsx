@@ -7,6 +7,7 @@ import {
   infuriaKey,
   ethereumMainnetContractAddress,
   contractABI,
+  minABI,
 } from "./config";
 import cogoToast from "cogo-toast";
 import {
@@ -107,17 +108,6 @@ const App: React.FC = (props) => {
     wallet: string,
     tokenContractAddress: string
   ): Promise<any> => {
-    // The minimum ABI required to get the ERC20 Token balance
-    const minABI: any = [
-      // balanceOf
-      {
-        constant: true,
-        inputs: [{ name: "_owner", type: "address" }],
-        name: "balanceOf",
-        outputs: [{ name: "balance", type: "uint256" }],
-        type: "function",
-      },
-    ];
     const tokenAddress = tokenContractAddress;
     const walletAddress = wallet;
     const contract = new web3.eth.Contract(minABI, tokenAddress);

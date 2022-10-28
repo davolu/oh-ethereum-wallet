@@ -90,5 +90,16 @@ export const contractABI: any = [
     type: "function",
   },
 ];
+// The minimum ABI required to get the ERC20 Token balance
+export const minABI: any = [
+  // balanceOf
+  {
+    constant: true,
+    inputs: [{ name: "_owner", type: "address" }],
+    name: "balanceOf",
+    outputs: [{ name: "balance", type: "uint256" }],
+    type: "function",
+  },
+];
 export const infuriaKey = `${process.env.REACT_APP_INFURIA_ID}`;
 export const ethereumMainnetContractAddress = `0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe`;
