@@ -90,5 +90,5 @@ export const contractABI: any = [
     type: "function",
   },
 ];
-export const infuriaKey = `6f53cd0fea2c4e308f45ab26d13bc60f`;
+export const infuriaKey = `${process.env.REACT_APP_INFURIA_ID}`;
 export const ethereumMainnetContractAddress = `0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe`;
